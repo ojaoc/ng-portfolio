@@ -31,8 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "./node_modules/@fontsource/prompt/index.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
