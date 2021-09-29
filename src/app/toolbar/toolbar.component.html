@@ -1,4 +1,8 @@
-<mat-toolbar color="primary" class="mat-elevation-z6" #outerElem>
+<mat-toolbar
+  color="primary"
+  #outerElem
+  [ngClass]="{ 'remove-bg': !showBg, 'mat-elevation-z6': showBg }"
+>
   <span>Portfolio</span>
   <span class="spacer"></span>
   <button
